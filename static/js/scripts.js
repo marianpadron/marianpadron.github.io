@@ -44,19 +44,6 @@ window.addEventListener('DOMContentLoaded', () => {
             projectsLink.classList.add('active-link-blue');
             contactLink.classList.add('active-link-orange');
 
-
-            // Check if the navbar is collapsed (contains the class "show")
-            const navbarCollapse = document.querySelector('.navbar-collapse');
-            if (navbarCollapse.classList.contains('show')) {
-                const navbarNav = document.querySelector('.navbar-nav');
-                navbarNav.style.backgroundColor = '#ececec';
-                navbarNav.style.borderRadius = '5px';
-            } else {
-                const navbarNav = document.querySelector('.navbar-nav');
-                navbarNav.style.backgroundColor = ''; // Reset to default
-                navbarNav.style.borderRadius = ''; // Reset to default
-            }
-
         } else {
 
             const currentScroll = window.scrollY;
