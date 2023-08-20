@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/********************************************************************************/
+/* FONTS */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 600 !important;
+    word-spacing: normal;
+    color: #333333;
+}
+
+h1 {
+    font-size: 6rem !important;
+}
+
+button.btn{
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: small;
+}
+
+
+p {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    word-spacing: normal;
+    color: #333333;
+    background-color: white;
+
+}
+
+.card-body h6{
+    font-family: 'Nanum Gothic', sans-serif !important;
+}
+
+/********************************************************************************/
+/* NAVIGATION */
+
+.navbar a{
+    color: #333333;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.navbar {
+    background-color: #ffff !important;
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: medium !important;  
+    max-height: 60px !important;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+a.nav-link {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+/********************************************************************************/
+
+/* BUTTONS */
+
+button {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: small !important;
+}
+
+a.btn {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.btn-primary {
+    color: #333333;
+    background-color: #81d3a9;
+    border-color: #81d3a9;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #ffff;
+    background-color: #5e72c1;
+    border-color: #5e72c1; /*set the color you want here*/
+}
+
+.btn-light {
+    background-color: #dcf3e7;
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+    border-color: #c8ecd9;
+}
+
+.green-hover:hover {
+    background-color: #eff9f4 !important;
+}
+
+.purple-button {
+    background-color: #dee3f3;
+    border-color: #7082c8;
+}
+
+.orange-button {
+    background-color: #ffedcb;
+    border-color: #ffa500;
+}
+
+.orange-button-dark {
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.orange-button-dark-hover:hover {
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.blue-button {
+    background-color: #dbe8fd;
+    border-color: #afccfb;
+}
+
+.blue-hover:hover {
+    background-color: #f0f6fe !important;
+}
+
+.blue-button-dark-hover:hover {
+    background-color: #4287f5 !important;
+    border-color: #4287f5;
+    color: white;
+}
+
+/********************************************************************************/
+
+/*FUNCTIONALITY*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+#about-me {
+    scroll-margin-top: -10px;
+}
+
+#education, #projects, #contact {
+    scroll-margin-top: 10px;
+}
+
+#header {
+    scroll-margin-top: 60px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+.purple a:hover{
+    color: #ffff !important;
+    background-color: #d0d6ed;
+    border-radius: 8%;
+}
+
+.blue a:hover {
+    color: #ffff !important;
+    background-color: #afccfb;
+    border-radius: 8%;
+}
+
+.green a:hover {
+    color: #ffff !important;
+    background-color: #e0f4ea;
+    border-radius: 8%;
+}
+
+.orange a:hover {
+    color: #ffff !important;
+    background-color: #ffd891;
+    border-radius: 8%;
+}
+
+.active-link-purple {
+    font-weight: bold; /* Apply your desired highlighting style */
+    color: #ffff !important; /* Apply your desired highlighting color */
+    background-color: #5e72c1;
+    border-radius: 8%;
+}
+
+.active-link-green {
+    font-weight: bold; /* Apply your desired highlighting style */
+    color: #ffff !important; /* Apply your desired highlighting color */
+    background-color: #81d3a9;
+    border-radius: 8%;
+}
+
+.active-link-blue {
+    font-weight: bold; /* Apply your desired highlighting style */
+    color: #ffff !important; /* Apply your desired highlighting color */
+    background-color: #4287f5;
+    border-radius: 8%;
+}
+
+.active-link-orange {
+    font-weight: bold; /* Apply your desired highlighting style */
+    color: #ffff !important; /* Apply your desired highlighting color */
+    background-color: #ffa500;
+    border-radius: 8%;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.1)!important;
+}
+
+/********************************************************************************/
+
+/* OTHER */
+
+.container-md {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.jumbotron {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    background-color: #ffff;
+}
+
+hr.under-line {
+    width: 5vh;
+    margin: auto;
+    border-top: 1.5px solid;
+}
+
+.no-hover{
+    pointer-events: none;
+}
+
+/********************************************************************************/
