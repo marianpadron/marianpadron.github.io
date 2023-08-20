@@ -37,6 +37,18 @@ window.addEventListener('DOMContentLoaded', () => {
         const headerRect = headerSection.getBoundingClientRect();
         const isHeaderVisible = headerRect.bottom > 0 && headerRect.top < window.innerHeight;
 
+        // Check if the navbar is collapsed (contains the class "show")
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+            const navbarNav = document.querySelector('.navbar-nav');
+            navbarNav.style.backgroundColor = '#c0c0c0';
+            navbarNav.style.borderRadius = '5px';
+        } else {
+            const navbarNav = document.querySelector('.navbar-nav');
+            navbarNav.style.backgroundColor = ''; // Reset to default
+            navbarNav.style.borderRadius = ''; // Reset to default
+        }
+
         if (isHeaderVisible) {
             headerSection.classList.add('black');
             aboutLink.classList.add('active-link-purple');

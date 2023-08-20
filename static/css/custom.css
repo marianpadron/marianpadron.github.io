@@ -175,53 +175,53 @@ a.anchor {
 .purple a:hover{
     color: #ffff !important;
     background-color: #d0d6ed;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .blue a:hover {
     color: #ffff !important;
     background-color: #afccfb;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .green a:hover {
     color: #ffff !important;
     background-color: #e0f4ea;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .orange a:hover {
     color: #ffff !important;
     background-color: #ffd891;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .active-link-purple {
     font-weight: bold; /* Apply your desired highlighting style */
     color: #ffff !important; /* Apply your desired highlighting color */
     background-color: #5e72c1;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .active-link-green {
     font-weight: bold; /* Apply your desired highlighting style */
     color: #ffff !important; /* Apply your desired highlighting color */
     background-color: #81d3a9;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .active-link-blue {
     font-weight: bold; /* Apply your desired highlighting style */
     color: #ffff !important; /* Apply your desired highlighting color */
     background-color: #4287f5;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .active-link-orange {
     font-weight: bold; /* Apply your desired highlighting style */
     color: #ffff !important; /* Apply your desired highlighting color */
     background-color: #ffa500;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .card:hover{
